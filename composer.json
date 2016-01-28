@@ -1,6 +1,6 @@
 {
-    "name": "clarkeash/machine",
-    "description": "Machine helps you create php classes, interfaces and more.",
+    "name": "clarkeash/factory",
+    "description": "Factory helps you create php classes, interfaces and more.",
     "type": "library",
     "require": {
         "symfony/console": "~2.7|~3.0",
