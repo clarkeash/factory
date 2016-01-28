@@ -1,10 +1,10 @@
 <?php
 
-namespace Machine\Console\Make;
+namespace Factory\Console\Make;
 
-use Machine\Composer;
-use Machine\Console\BaseCommand;
-use Machine\Generators\InterfaceGenerator;
+use Factory\Composer;
+use Factory\Console\BaseCommand;
+use Factory\Generators\InterfaceGenerator;
 use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputOption;
 
@@ -15,7 +15,7 @@ class InterfaceCommand extends BaseCommand
      */
     private $generator;
     /**
-     * @var \Machine\Composer
+     * @var \Factory\Composer
      */
     private $composer;
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace Machine;
+namespace Factory;
 
 use Illuminate\Support\Str;
 use League\Flysystem\Adapter\Local;

@@ -5,11 +5,11 @@ require_once __DIR__ . '/vendor/autoload.php';
 
 use League\Flysystem\Adapter\Local;
 use League\Flysystem\Filesystem;
-use Machine\Application;
-use Machine\Console\Make\ClassCommand;
-use Machine\Console\Make\InterfaceCommand;
-use Machine\Console\Make\TraitCommand;
-use Machine\Console\Make\TestCommand;
+use Factory\Application;
+use Factory\Console\Make\ClassCommand;
+use Factory\Console\Make\InterfaceCommand;
+use Factory\Console\Make\TraitCommand;
+use Factory\Console\Make\TestCommand;
 use Symfony\Component\Console\Output\ConsoleOutput;
 
 

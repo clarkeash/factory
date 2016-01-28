@@ -1,21 +1,21 @@
 <?php
 
-namespace Machine\Console\Make;
+namespace Factory\Console\Make;
 
-use Machine\Composer;
-use Machine\Console\BaseCommand;
-use Machine\Generators\ClassGenerator;
+use Factory\Composer;
+use Factory\Console\BaseCommand;
+use Factory\Generators\ClassGenerator;
 use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputOption;
 
 class ClassCommand extends BaseCommand
 {
     /**
-     * @var \Machine\Generators\ClassGenerator
+     * @var \Factory\Generators\ClassGenerator
      */
     private $generator;
     /**
-     * @var \Machine\Composer
+     * @var \Factory\Composer
      */
     private $composer;
 

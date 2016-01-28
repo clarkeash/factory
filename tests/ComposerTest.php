@@ -2,7 +2,7 @@
 
 use Clarkeash\Vfs\Adapter;
 use League\Flysystem\Filesystem;
-use Machine\Composer;
+use Factory\Composer;
 use org\bovigo\vfs\vfsStream;
 
 class ComposerTest extends PHPUnit_Framework_TestCase

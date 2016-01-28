@@ -1,9 +1,9 @@
 <?php
 
-namespace Machine\Generators;
+namespace Factory\Generators;
 
 use Illuminate\Support\Str;
-use Machine\Utils;
+use Factory\Utils;
 
 class TestGenerator extends BaseGenerator
 {

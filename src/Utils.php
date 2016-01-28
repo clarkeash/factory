@@ -1,6 +1,6 @@
 <?php
 
-namespace Machine;
+namespace Factory;
 
 class Utils
 {

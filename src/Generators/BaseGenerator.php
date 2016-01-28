@@ -1,17 +1,17 @@
 <?php
 
-namespace Machine\Generators;
+namespace Factory\Generators;
 
 use League\Flysystem\Adapter\Local;
 use League\Flysystem\Filesystem;
-use Machine\Composer;
-use Machine\Utils;
+use Factory\Composer;
+use Factory\Utils;
 use Mustache_Engine;
 
 abstract class BaseGenerator
 {
     /**
-     * @var \Machine\Composer
+     * @var \Factory\Composer
      */
     protected $composer;
     /**

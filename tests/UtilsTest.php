@@ -1,6 +1,6 @@
 <?php
 
-use Machine\Utils;
+use Factory\Utils;
 
 class UtilsTest extends PHPUnit_Framework_TestCase
 {

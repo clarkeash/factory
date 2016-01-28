@@ -1,6 +1,6 @@
 <?php
 
-namespace Machine\Generators;
+namespace Factory\Generators;
 
 class TraitGenerator extends BaseGenerator
 {
