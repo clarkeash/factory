@@ -50,6 +50,43 @@ Create a trait
 factory make:trait ExampleTrait
 ```
 
+#### Test
+
+Create a test
+
+```bash
+factory make:test Application
+```
+
+The above command will create a test class to test the Application class. And will generate the following:
+
+````php
+<?php
+
+use Acme\Application;
+
+class ApplicationTest extends \PHPUnit_Framework_TestCase
+{
+    /**
+     * @var Application
+     */
+    protected $unit;
+
+    public function setUp()
+    {
+        $this->unit = new Application();
+    }
+
+    /**
+     * @test
+     */
+    public function it_works()
+    {
+        $this->assertTrue(true);
+    }
+}
+````
+
 ## Testing
 
 ``` bash
