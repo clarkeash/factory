@@ -25,14 +25,40 @@ The factory command should be ran from the root directory, where the composer.js
 Create a basic class
 
 ```bash
-factory make:class Example
+factory make:class Application
 ```
+
+Generates:
+
+````php
+<?php
+
+namespace Acme;
+
+class Application
+{
+
+}
+````
 
 Create an abstract class
 
 ```bash
 factory make:class Example --abstract
 ```
+
+Generates:
+
+````php
+<?php
+
+namespace Acme;
+
+abstract class Example
+{
+
+}
+````
 
 #### Interface
 
@@ -42,6 +68,20 @@ Create an interface
 factory make:interface ExampleInterface
 ```
 
+Generates:
+
+````php
+<?php
+
+namespace Acme;
+
+interface ExampleInterface
+{
+
+}
+````
+
+
 #### Trait
 
 Create a trait
@@ -49,6 +89,19 @@ Create a trait
 ```bash
 factory make:trait ExampleTrait
 ```
+
+Generates:
+
+````php
+<?php
+
+namespace Acme;
+
+trait ExampleTrait
+{
+
+}
+````
 
 #### Test
 
