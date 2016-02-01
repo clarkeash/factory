@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "119ca432594b9952be34f6ba2d01bd5a",
-    "content-hash": "4ed2774c5893d8bf12466e40e3c2125c",
+    "hash": "792db013850956df85ba30cad928c314",
+    "content-hash": "13d973128b7f95f77a095bdbaac3c0ae",
     "packages": [
         {
             "name": "doctrine/inflector",
@@ -355,7 +355,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/94f10d3c505cf1631c551824218da96a39af9592",
+                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/e05ef2374367ae8d96101cd6f353b2f0362ad80f",
                 "reference": "94f10d3c505cf1631c551824218da96a39af9592",
                 "shasum": ""
             },
@@ -958,6 +958,52 @@
             "time": "2015-06-14 21:17:01"
         },
         {
+            "name": "league/flysystem-vfs",
+            "version": "1.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/thephpleague/flysystem-vfs.git",
+                "reference": "4094bf8ee0223e224328d910a40a4a1fdb68f914"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/thephpleague/flysystem-vfs/zipball/4094bf8ee0223e224328d910a40a4a1fdb68f914",
+                "reference": "4094bf8ee0223e224328d910a40a4a1fdb68f914",
+                "shasum": ""
+            },
+            "require": {
+                "league/flysystem": "^1.0",
+                "php": ">=5.4.0",
+                "php-vfs/php-vfs": "^1.3"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.8"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "League\\Flysystem\\Vfs\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Maxime Fabre",
+                    "email": "ehtnam6@gmail.com"
+                }
+            ],
+            "description": "A VFS adapter for Flysystem",
+            "time": "2015-11-05 13:06:54"
+        },
+        {
             "name": "mikey179/vfsStream",
             "version": "v1.6.2",
             "source": {
@@ -1044,6 +1090,55 @@
                 "object graph"
             ],
             "time": "2015-11-07 22:20:37"
+        },
+        {
+            "name": "php-vfs/php-vfs",
+            "version": "v1.3.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/michael-donat/php-vfs.git",
+                "reference": "70e1d32aee8335efadbcc8281c127d40dba7425b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/michael-donat/php-vfs/zipball/70e1d32aee8335efadbcc8281c127d40dba7425b",
+                "reference": "70e1d32aee8335efadbcc8281c127d40dba7425b",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.0",
+                "sami/sami": "*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "VirtualFileSystem": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Michael Donat",
+                    "email": "michael.donat@me.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Virtual file system implementation for use with PHP unit testing.",
+            "homepage": "http://michael-donat.github.com/php-vfs",
+            "keywords": [
+                "filesystem",
+                "php",
+                "testing",
+                "unit",
+                "virtual"
+            ],
+            "time": "2015-11-05 11:09:49"
         },
         {
             "name": "phpspec/prophecy",
